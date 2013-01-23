@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		869411EF16B0007200D527FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869411EE16B0007200D527FC /* UIKit.framework */; };
+		869411F116B0007200D527FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869411F016B0007200D527FC /* Foundation.framework */; };
+		869411F316B0007200D527FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869411F216B0007200D527FC /* CoreGraphics.framework */; };
+		869411F916B0007200D527FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 869411F716B0007200D527FC /* InfoPlist.strings */; };
+		869411FB16B0007200D527FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 869411FA16B0007200D527FC /* main.m */; };
+		869411FF16B0007200D527FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 869411FE16B0007200D527FC /* AppDelegate.m */; };
+		8694120116B0007200D527FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8694120016B0007200D527FC /* Default.png */; };
+		8694120316B0007200D527FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8694120216B0007200D527FC /* Default@2x.png */; };
+		8694120516B0007200D527FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8694120416B0007200D527FC /* Default-568h@2x.png */; };
+		8694120816B0007200D527FC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8694120716B0007200D527FC /* RootViewController.m */; };
+		8694120B16B0007200D527FC /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8694120A16B0007200D527FC /* DataViewController.m */; };
+		8694120E16B0007200D527FC /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8694120D16B0007200D527FC /* ModelController.m */; };
+		8694121116B0007200D527FC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8694120F16B0007200D527FC /* MainStoryboard_iPhone.storyboard */; };
+		8694121416B0007200D527FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8694121216B0007200D527FC /* MainStoryboard_iPad.storyboard */; };
+		8694121C16B0007200D527FC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8694121B16B0007200D527FC /* SenTestingKit.framework */; };
+		8694121D16B0007200D527FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869411EE16B0007200D527FC /* UIKit.framework */; };
+		8694121E16B0007200D527FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869411F016B0007200D527FC /* Foundation.framework */; };
+		8694122616B0007200D527FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8694122416B0007200D527FC /* InfoPlist.strings */; };
+		8694122916B0007200D527FC /* Welcome_to_RichmondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8694122816B0007200D527FC /* Welcome_to_RichmondTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8694121F16B0007200D527FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869411E116B0007200D527FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869411E916B0007200D527FC;
+			remoteInfo = "Welcome to Richmond";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		869411EA16B0007200D527FC /* Welcome to Richmond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welcome to Richmond.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		869411EE16B0007200D527FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		869411F016B0007200D527FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		869411F216B0007200D527FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		869411F616B0007200D527FC /* Welcome to Richmond-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Welcome to Richmond-Info.plist"; sourceTree = "<group>"; };
+		869411F816B0007200D527FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		869411FA16B0007200D527FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		869411FC16B0007200D527FC /* Welcome to Richmond-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Welcome to Richmond-Prefix.pch"; sourceTree = "<group>"; };
+		869411FD16B0007200D527FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		869411FE16B0007200D527FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8694120016B0007200D527FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8694120216B0007200D527FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8694120416B0007200D527FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8694120616B0007200D527FC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8694120716B0007200D527FC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8694120916B0007200D527FC /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		8694120A16B0007200D527FC /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		8694120C16B0007200D527FC /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		8694120D16B0007200D527FC /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		8694121016B0007200D527FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8694121316B0007200D527FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8694121A16B0007200D527FC /* Welcome to RichmondTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Welcome to RichmondTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8694121B16B0007200D527FC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8694122316B0007200D527FC /* Welcome to RichmondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Welcome to RichmondTests-Info.plist"; sourceTree = "<group>"; };
+		8694122516B0007200D527FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8694122716B0007200D527FC /* Welcome_to_RichmondTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Welcome_to_RichmondTests.h; sourceTree = "<group>"; };
+		8694122816B0007200D527FC /* Welcome_to_RichmondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome_to_RichmondTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869411E716B0007200D527FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869411EF16B0007200D527FC /* UIKit.framework in Frameworks */,
+				869411F116B0007200D527FC /* Foundation.framework in Frameworks */,
+				869411F316B0007200D527FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8694121616B0007200D527FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8694121C16B0007200D527FC /* SenTestingKit.framework in Frameworks */,
+				8694121D16B0007200D527FC /* UIKit.framework in Frameworks */,
+				8694121E16B0007200D527FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		869411DF16B0007200D527FC = {
+			isa = PBXGroup;
+			children = (
+				869411F416B0007200D527FC /* Welcome to Richmond */,
+				8694122116B0007200D527FC /* Welcome to RichmondTests */,
+				869411ED16B0007200D527FC /* Frameworks */,
+				869411EB16B0007200D527FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		869411EB16B0007200D527FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869411EA16B0007200D527FC /* Welcome to Richmond.app */,
+				8694121A16B0007200D527FC /* Welcome to RichmondTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869411ED16B0007200D527FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869411EE16B0007200D527FC /* UIKit.framework */,
+				869411F016B0007200D527FC /* Foundation.framework */,
+				869411F216B0007200D527FC /* CoreGraphics.framework */,
+				8694121B16B0007200D527FC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		869411F416B0007200D527FC /* Welcome to Richmond */ = {
+			isa = PBXGroup;
+			children = (
+				869411FD16B0007200D527FC /* AppDelegate.h */,
+				869411FE16B0007200D527FC /* AppDelegate.m */,
+				8694120616B0007200D527FC /* RootViewController.h */,
+				8694120716B0007200D527FC /* RootViewController.m */,
+				8694120916B0007200D527FC /* DataViewController.h */,
+				8694120A16B0007200D527FC /* DataViewController.m */,
+				8694120C16B0007200D527FC /* ModelController.h */,
+				8694120D16B0007200D527FC /* ModelController.m */,
+				8694120F16B0007200D527FC /* MainStoryboard_iPhone.storyboard */,
+				8694121216B0007200D527FC /* MainStoryboard_iPad.storyboard */,
+				869411F516B0007200D527FC /* Supporting Files */,
+			);
+			path = "Welcome to Richmond";
+			sourceTree = "<group>";
+		};
+		869411F516B0007200D527FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				869411F616B0007200D527FC /* Welcome to Richmond-Info.plist */,
+				869411F716B0007200D527FC /* InfoPlist.strings */,
+				869411FA16B0007200D527FC /* main.m */,
+				869411FC16B0007200D527FC /* Welcome to Richmond-Prefix.pch */,
+				8694120016B0007200D527FC /* Default.png */,
+				8694120216B0007200D527FC /* Default@2x.png */,
+				8694120416B0007200D527FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8694122116B0007200D527FC /* Welcome to RichmondTests */ = {
+			isa = PBXGroup;
+			children = (
+				8694122716B0007200D527FC /* Welcome_to_RichmondTests.h */,
+				8694122816B0007200D527FC /* Welcome_to_RichmondTests.m */,
+				8694122216B0007200D527FC /* Supporting Files */,
+			);
+			path = "Welcome to RichmondTests";
+			sourceTree = "<group>";
+		};
+		8694122216B0007200D527FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8694122316B0007200D527FC /* Welcome to RichmondTests-Info.plist */,
+				8694122416B0007200D527FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869411E916B0007200D527FC /* Welcome to Richmond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8694122C16B0007200D527FC /* Build configuration list for PBXNativeTarget "Welcome to Richmond" */;
+			buildPhases = (
+				869411E616B0007200D527FC /* Sources */,
+				869411E716B0007200D527FC /* Frameworks */,
+				869411E816B0007200D527FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Welcome to Richmond";
+			productName = "Welcome to Richmond";
+			productReference = 869411EA16B0007200D527FC /* Welcome to Richmond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8694121916B0007200D527FC /* Welcome to RichmondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8694122F16B0007200D527FC /* Build configuration list for PBXNativeTarget "Welcome to RichmondTests" */;
+			buildPhases = (
+				8694121516B0007200D527FC /* Sources */,
+				8694121616B0007200D527FC /* Frameworks */,
+				8694121716B0007200D527FC /* Resources */,
+				8694121816B0007200D527FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8694122016B0007200D527FC /* PBXTargetDependency */,
+			);
+			name = "Welcome to RichmondTests";
+			productName = "Welcome to RichmondTests";
+			productReference = 8694121A16B0007200D527FC /* Welcome to RichmondTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869411E116B0007200D527FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Independent Media Group";
+			};
+			buildConfigurationList = 869411E416B0007200D527FC /* Build configuration list for PBXProject "Welcome to Richmond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 869411DF16B0007200D527FC;
+			productRefGroup = 869411EB16B0007200D527FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869411E916B0007200D527FC /* Welcome to Richmond */,
+				8694121916B0007200D527FC /* Welcome to RichmondTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869411E816B0007200D527FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869411F916B0007200D527FC /* InfoPlist.strings in Resources */,
+				8694120116B0007200D527FC /* Default.png in Resources */,
+				8694120316B0007200D527FC /* Default@2x.png in Resources */,
+				8694120516B0007200D527FC /* Default-568h@2x.png in Resources */,
+				8694121116B0007200D527FC /* MainStoryboard_iPhone.storyboard in Resources */,
+				8694121416B0007200D527FC /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8694121716B0007200D527FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8694122616B0007200D527FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8694121816B0007200D527FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869411E616B0007200D527FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869411FB16B0007200D527FC /* main.m in Sources */,
+				869411FF16B0007200D527FC /* AppDelegate.m in Sources */,
+				8694120816B0007200D527FC /* RootViewController.m in Sources */,
+				8694120B16B0007200D527FC /* DataViewController.m in Sources */,
+				8694120E16B0007200D527FC /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8694121516B0007200D527FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8694122916B0007200D527FC /* Welcome_to_RichmondTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8694122016B0007200D527FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869411E916B0007200D527FC /* Welcome to Richmond */;
+			targetProxy = 8694121F16B0007200D527FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		869411F716B0007200D527FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869411F816B0007200D527FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8694120F16B0007200D527FC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8694121016B0007200D527FC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8694121216B0007200D527FC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8694121316B0007200D527FC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8694122416B0007200D527FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8694122516B0007200D527FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8694122A16B0007200D527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8694122B16B0007200D527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8694122D16B0007200D527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Welcome to Richmond/Welcome to Richmond-Prefix.pch";
+				INFOPLIST_FILE = "Welcome to Richmond/Welcome to Richmond-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8694122E16B0007200D527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Welcome to Richmond/Welcome to Richmond-Prefix.pch";
+				INFOPLIST_FILE = "Welcome to Richmond/Welcome to Richmond-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8694123016B0007200D527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Welcome to Richmond.app/Welcome to Richmond";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Welcome to Richmond/Welcome to Richmond-Prefix.pch";
+				INFOPLIST_FILE = "Welcome to RichmondTests/Welcome to RichmondTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8694123116B0007200D527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Welcome to Richmond.app/Welcome to Richmond";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Welcome to Richmond/Welcome to Richmond-Prefix.pch";
+				INFOPLIST_FILE = "Welcome to RichmondTests/Welcome to RichmondTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869411E416B0007200D527FC /* Build configuration list for PBXProject "Welcome to Richmond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8694122A16B0007200D527FC /* Debug */,
+				8694122B16B0007200D527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8694122C16B0007200D527FC /* Build configuration list for PBXNativeTarget "Welcome to Richmond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8694122D16B0007200D527FC /* Debug */,
+				8694122E16B0007200D527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8694122F16B0007200D527FC /* Build configuration list for PBXNativeTarget "Welcome to RichmondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8694123016B0007200D527FC /* Debug */,
+				8694123116B0007200D527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869411E116B0007200D527FC /* Project object */;
+}
